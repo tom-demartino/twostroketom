@@ -1,6 +1,7 @@
 import React from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
+import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Fun from "./pages/Fun";
 import Highlights from "./pages/Highlights";
@@ -10,6 +11,7 @@ export default function App() {
   return (
     <>
       <Router basename="">
+        <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/fun" element={<Fun />} />

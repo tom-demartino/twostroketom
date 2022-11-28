@@ -6,7 +6,7 @@ import Container from "@mui/material/Container";
 export default function Fun() {
   return (
     <>
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" sx={{ textAlign: "center", marginTop: "70px" }}>
         <Typography variant="h3">Fun stuff</Typography>
       </Container>
     </>
