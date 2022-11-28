@@ -13,7 +13,7 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 
 import Logo from "../assets/logos/fullLogo";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, Link, useLocation } from "react-router-dom";
 
 export default function Navbar() {
   const navigate = useNavigate();
@@ -86,7 +86,9 @@ export default function Navbar() {
               height: "70%",
             }}
           >
-            <Logo />
+            <Link to="/" style={{ display: "contents" }}>
+              <Logo />
+            </Link>
           </Box>
           {tabList()}
           {tabDrawer()}
