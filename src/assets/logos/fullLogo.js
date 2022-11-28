@@ -30,7 +30,7 @@ export default function fullLogo() {
         opacity="1"
         rx="1%"
       ></rect>
-      <svg
+      <g
         width="320.871"
         height="200"
         transform="translate(232.907 .5)"
@@ -53,8 +53,8 @@ export default function fullLogo() {
             ></path>
           </g>
         </svg>
-      </svg>
-      <svg
+      </g>
+      <g
         width="198.298"
         height="89.793"
         transform="translate(0 55.604)"
@@ -81,7 +81,7 @@ export default function fullLogo() {
             ></path>
           </g>
         </svg>
-      </svg>
+      </g>
     </svg>
   );
 }
