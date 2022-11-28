@@ -13,6 +13,9 @@ export default function fullLogo() {
         display: "inline-block",
         boxSizing: "content-box",
         margin: 0,
+        transform: "translate3d(0px, 0px, 0px)",
+        margin: "auto",
+        width: "100%",
       }}
     >
       <rect
